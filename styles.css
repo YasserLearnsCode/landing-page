@@ -1,0 +1,139 @@
+body {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/898/original/pngtree-colorful-music-notes-on-a-black-background-picture-image_2880724.jpg?1705443188);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      header {
+        margin: 20px auto;
+        max-width: 600px;
+        background: #1a1122;
+        padding: 30px;
+        border-radius: 10px;
+        border: 0.5px solid #705095;
+      }
+      .container {
+        margin: 20px auto;
+        max-width: 600px;
+        background: #1a1122;
+        padding: 30px;
+        border-radius: 10px;
+        border: 0.5px solid #705095;
+      }
+      h1 {
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 34px;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: white;
+      }
+      footer {
+        text-align: center;
+        margin: 10px auto;
+      }
+      .themeButton {
+        color: black;
+        background: white;
+        padding: 10px;
+        border: 1px solid #705095;
+        border-radius: 10px;
+        transition: all 200ms ease-in;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .themeButton:hover {
+        color: white;
+        background: #705095;
+      }
+      .learnButton {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        border: 1px solid #705095;
+        padding: 10px 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .learnButton:hover {
+        color: #705095;
+        background: white;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        width: 100%;
+        border-radius: 10px;
+        border: 0.5px solid #705095;
+      }
+      .firstPhoto {
+        transition: all 150ms ease-in-out;
+      }
+      .firstPhoto:hover {
+        opacity: 0.7;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        margin: 5px 0;
+      }
+      .gallery img {
+        width: 100%;
+        object-fit: cover;
+        transition: all 150ms ease-in-out;
+      }
+      .gallery img:hover {
+        transform: scale(1.2);
+      }
+
+      .light {
+        background: linear-gradient(rgb(245, 246, 249), rgb(112, 80, 149));
+      }
+      .light header {
+        background: white;
+        color: black;
+        border: none;
+      }
+
+      .light .container {
+        background: white;
+        border: none;
+      }
+      .light h1 {
+        color: black;
+      }
+      .light h2 {
+        color: black;
+      }
+      .light p {
+        color: black;
+      }
+      .light .learnButton {
+        background: #705095;
+        color: white;
+      }
+
+      .light .themeButton {
+        background: #705095;
+        color: white;
+      }
+      .light footer p {
+        color: white;
+      }
+      .light button:hover {
+        background: white;
+        color: #705095;
+      }
+      .light img {
+        border: none;
+      }
